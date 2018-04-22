@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DisplayDetailsComponent implements OnInit {
 
-  secretPassword = 'Secret Password: TobySucks';
+  secretPassword = 'Secret Password: TobyRulez';
   displayClass = 'hidden-lg';
   currentlyDisplayed = 'Not Displayed';
   buttonValue = 'Display Details';
@@ -39,7 +39,7 @@ export class DisplayDetailsComponent implements OnInit {
 
   getStyle() {
     if (this.count >= 5) {
-      this.backgroundColor = 'blue';
+      this.backgroundColor = 'cornflowerblue';
       return this.backgroundColor;
     }
   }

@@ -5,9 +5,9 @@
   {{ getButtonValue() }}
 </button>
 </div>
-<div class="col-xs-12">
-  <p class="{{ getClass() }}">{{ secretPassword }}</p>
-</div>
+<!--<div class="col-xs-12">-->
+  <!--<p class="{{ getClass() }}">{{ secretPassword }}</p>-->
+<!--</div>-->
 <div class="col-xs-12">
   <ul *ngFor="let buttonPress of buttonPressCount">
     <li *ngIf="buttonPress < 5; else addBackground" class="{{ getClass() + buttonPress }}">{{ buttonPress }}</li>
